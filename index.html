@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafaelle Otsuka - Portfólio</title>
+    <link rel="icon" href="imgs/arts/rafa_desenho_png.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> <!--Cabeçalho - Barra de navegação-->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top fs-5">
+            <div class="container-fluid py-2">
+                <a class="nav-spacing nav-link milonga-regular yellow-text d-flex justify-content-center ms-2" href="#"
+                    id="portfolio-text">Portfólio
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#about-me-section">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#abilities-section">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#projects-section">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#footer-section">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="nav-spacing d-flex align-items-center me-4" id="contact-header">
+                        <img src="imgs/icons/telIcon.png" alt="ícone de telefone" class="tel-icon me-3">
+                        <a href="tel:+5511920016396" target="_blank" class="nav-link yellow-text text-nowrap">11
+                            92001-6396</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------Apresentação do site - Primeiro banner--------------->
+    <section id="welcome-banner" class="d-flex justify-content-center align-items-center flex-column">
+        <h1>Olá, eu sou a <span class="yellow-text">Rafaelle Hemmel Otsuka</span></h1>
+        <p class="fs-5">Formada em Sistemas para Internet </p>
+        <p class="fs-5">Frontend developer com foco em Design</p>
+        <div class="first-wave"></div> <!--Efeito de onda-->
+    </section>
+
+    <!----------------------------Sessão Sobre Mim------------------------------->
+    <section id="about-me-section" class="bg-mountains-dark">
+        <!--Título da sessão Sobre Mim-->
+        <div class="container d-flex justify-content-center align-items-center flex-column pt-3">
+            <h2 class="yellow-text">Sobre mim</h2>
+            <div class="horizontal-line-for-tittles"></div>
+        </div>
+
+        <!--Conteúdo da sessão Sobre Mim-->
+        <div class="container-fluid container-xl" id="about-me-content-container">
+            <div class="row d-flex justify-content-evenly align-items-center">
+
+                <div class="col col-12 col-md-5 d-flex align-items-center flex-column gap-4">
+                    <!--Foto do Ricardo e Download de CV-->
+                    <img src="imgs/arts/foto-de-perfil.jpeg" id="my-picture" alt="Foto de Rafaelle Hemmel">
+                    <a href="cv/RAFAELLE_HEMMEL_OTSUKA_CV.pdf.pdf" download id="btn-download-cv"
+                        class="fs-5 fw-semibold px-4 py-1" role="button">Download CV</a>
+
+                </div>
+
+                <!--Meu nome, Minha ocupação atual e texto sobre mim-->
+                <div class="col col-12 col-md-5" id="container-about-me-text">
+                    <h3>Rafaelle Hemmel Otsuka</h3>
+                    <h4 class="yellow-text">Estudante</h4>
+                    <p class="fs-5">Sou programadora formada em Sistemas para Internet, e ao longo do tempo desenvolvi habilidades tanto na área de tecnologia quanto na criação visual. Trabalho com desenvolvimento web e também com design gráfico, criando artes, layouts, vídeos e pequenas animações para diferentes tipos de projetos.
+
+Tenho experiência com Photoshop, Illustrator, Figma, Premiere e After Effects, além de conhecimento em HTML, CSS, JavaScript, React e outras tecnologias. Gosto de unir o lado técnico com o lado criativo, trazendo soluções que sejam bonitas, funcionais e práticas.
+
+Busco sempre aprender coisas novas, melhorar minhas entregas e colaborar em projetos onde eu possa contribuir de forma verdadeira, seja criando interfaces, layouts, vídeos ou solucionando problemas através do código.
+
+Atualmente estou aberta a oportunidades em design e criação digital, onde eu possa usar tanto minha formação em TI quanto minhas habilidades visuais
+
+                    <!--Dados básicos sobre mim-->
+                    <div class="fs-5 d-flex justify-content-between" id="basic-data-about-me">
+                        <div>
+                            <p class="m-0">Nascimento</p>
+                            <p class="m-0">Telefone</p>
+                            <p class="m-0">Região</p>
+                            <p class="m-0">Email</p>
+                            <p class="m-0">Línguas</p>
+                            <p class="m-0">Trabalho</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span>:</span>
+                            <span>:</span>
+                            <span>:</span>
+                            <span>:</span>
+                            <span>:</span>
+                            <span>:</span>
+                        </div>
+                        <div id="data-about-me">
+                            <p class="m-0">26/12/2004</p>
+                            <p class="m-0">11 92201-6396</p>
+                            <p class="m-0">Zona Sul, Parelheiros</p>
+                            <p class="m-0">rafaelleotsuka@gmail.com</p>
+                            <p class="m-0">Português, Inglês</p>
+                            <p class="m-0">Disponível</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-wave"></div> <!--Efeito de onda-->
+
+    </section>
+
+    <!---------------------------Sessão Habilidades------------------------->
+
+    <section id="abilities-section" class="bg-dark-blue">
+
+        <!--Título da sessão Habilidades-->
+        <div class="container d-flex justify-content-center align-items-center flex-column pt-3">
+            <h2 class="yellow-text">Habilidades</h2>
+            <div class="horizontal-line-for-tittles"></div>
+        </div>
+
+        <div class="container" id="abilities-content-container">
+            <div class="row d-flex justify-content-between align-items-center">
+
+                <!--Texto de competências Técnicas-->
+                <div class="col col-12 col-lg-5" id="technical-skills-text">
+                    <h3>Competências Técnicas</h3>
+                    <p>Resultado do tempo aplicado à minha formação acadêmica, participação em cursos
+                        online, estudos independentes e experiência profissional. Este repertório, construído ao longo
+                        do tempo reflete na aplicação prática desses
+                        conhecimentos em contextos diversos.
+                    </p>
+                </div>
+
+                <!--Quadro de competências tecnicas rankeadas-->
+                <div class="col col-12 col-lg-6 d-flex justify-content-around" id="technical-skills-box">
+
+                    <!--(1) Primeira linha vertical com 4 competências-->
+                    <div>
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/htmlIcon.png" alt="HTML Icon" class="iconResize">
+                            <p class="p-0 m-0">HTML</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/nextIcon.svg" alt="Next Icon" class="iconResize">
+                            <p class="p-0 m-0">Next.js</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="imgs\arts\aillustrator-icon.png" alt="Nest Icon" class="iconResize">
+                            <p class="p-0 m-0">Illustrator</p>
+                        </div>
+
+           
+
+                         <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="imgs\arts\figma-icon.png" alt="Excel Icon" class="iconResize">
+                            <p class="p-0 m-0">Figma</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/laravelIcon.svg" alt="Laravel Icon" class="iconResize">
+                            <p class="p-0 m-0">Laravel</p>
+                        </div>
+
+                    </div>
+
+                    <!--(2) Segunda linha vertical com 4 competências-->
+                    <div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/cssIcon.png" alt="Css Icon" class="iconResize">
+                            <p class="p-0 m-0">CSS</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/tailwindIcon.png" alt="Tailwind Icon" class="iconResize">
+                            <p class="p-0 m-0">Tailwind</p>
+                        </div>
+
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="imgs\arts\premiere-icon.png" alt="Prisma Icon" class="iconResize">
+                            <p class="p-0 m-0">Premiere</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/mysqlIcon.png" alt="Mysql Icon" class="iconResize">
+                            <p class="p-0 m-0">SQL</p>
+                        </div>
+
+                                                <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/githubIcon.png" alt="Github Icon" class="iconResize">
+                            <p class="p-0 m-0">Github</p>
+                        </div>
+
+
+                    </div>
+
+                    <!--(3) Terceira linha vertical com 4 competências-->
+                    <div>
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/jsIcon.png" alt="JavaScript Icon" class="iconResize">
+                            <p class="p-0 m-0">JavaScript</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/typescriptIcon.png" alt="Typescript Icon" class="iconResize">
+                            <p class="p-0 m-0">Typescript</p>
+                        </div>
+
+                                      <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="imgs\arts\photoshop-icon.png" alt="Excel Icon" class="iconResize">
+                            <p class="p-0 m-0">Photoshop</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/phpIcon.png" alt="PHP Icon" class="iconResize">
+                            <p class="p-0 m-0">PHP</p>
+                        </div>
+
+                        <div class="text-center px-3 py-4 abilities-fs">
+                            <img src="/imgs/icons/pythonLogo.png" alt="Python Icon" class="iconResize">
+                            <p class="p-0 m-0">Python</p>
+                        </div>
+
+                    </div>
+
+                </div> <!--fecha quadro de competências rankeadas-->
+            </div> <!--fecha orientação horizontal Texto e Quadro-->
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+
+                <!-- Qualificações Profissionais -->
+                <div class="col col-12 col-lg-5" id="behavioral-skills-text">
+                    <h3>Qualificações Profissionais</h3>
+                    <p>Aqui estão algumas das fontes de estudo que fundamentam as habilidades previamente destacadas:
+                    </p>
+                </div>
+
+                <!--Lista de competências comportamentais-->
+                <div class="col col-12 col-lg-5" id="behavioral-skills-list">
+                    <ul class="fs-4">
+                        <li>Sistemas para Internet - Formado</li>
+                        <li>Design de Animação - 1 ano</li>
+                        <li>Comunicação Escrita - Fundação Bradesco</li>
+                        <li>Variedades Linguísticas - Fundação Bradesco</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="first-wave"></div> <!--Efeito de onda-->
+
+    </section>
+
+
+    <!---------------------------Sessão Projetos------------------------->
+    <section id="projects-section" class="bg-mountains-dark">
+
+        <!--Título da sessão Projetos-->
+        <div class="container d-flex justify-content-center align-items-center flex-column pt-3">
+            <h2 class="yellow-text">Projetos</h2>
+            <div class="horizontal-line-for-tittles"></div>
+        </div>
+
+
+        <!--Container Cards de Projetos-->
+        <div class="container project-cards-container">
+            <div class="row d-flex justify-content-around">
+
+                <!--Projeto 1-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/alphaLogo.png" class="card-img-top img-card-resize" alt="Imagem do Pacman">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Alpha - Hardware Store</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">Um aplicativo de e-commerce para peças de hardware, desenvolvido
+                                no Android Studio.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                                <button type="button" class="btn modal-btn" data-bs-toggle="modal"
+                                    data-bs-target="#alphaModal">
+                                    Não hospedado
+                                </button>
+                                <a href="https://github.com/Alpha-Computers-TSI/Alpha" target="_blank"
+                                    class="btn btn-checkout">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Site não Hospedado-->
+                <div class="modal fade" id="alphaModal" tabindex="-1" aria-labelledby="alphaModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="alphaModal">Alpha - Hardware Store</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Esse aplicativo precisa da ferramenta de desenvolvimento Android Studio para compilar
+                                todos os arquivos e gerar um
+                                executável no smartphone para testar. Segue link para vídeo do projeto: <a
+                                    href="https://drive.google.com/file/d/1EIX22uwRGhjSQ7T1Wrc5lGBfrgBUD5q-/view?usp=sharing"
+                                    target="_blank">Vídeo
+                                    do Projeto</a>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/Alpha-Computers-TSI/Alpha" target="_blank" type="button"
+                                    class="btn btn-primary">Github</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Projeto 2-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/charlie.png" class="card-img-top img-card-resize" alt="Logo Charlie">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Charlie Streetwear</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">Um CRUD de administrador de uma loja de roupas. Projeto
+                                desenvolvido com linguagem de servidor PHP e Bootstrap.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                                <!--Botão para o modal-->
+                                <button type="button" class="btn modal-btn" data-bs-toggle="modal"
+                                    data-bs-target="#charlieModal">
+                                    Não hospedado
+                                </button>
+                                <a href="https://github.com/CRUD-Tokyo-Streetwear/commercialWebStore" target="_blank"
+                                    class="btn btn-checkout">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Site não Hospedado-->
+                <div class="modal fade" id="charlieModal" tabindex="-1" aria-labelledby="charlieModal"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="charlieModal">Charlie Streetwear</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Esse site é uma aplicação onde é necessário o uso de um servidor local como XAMPP para
+                                seu uso. Caso queria testar acesse o meu github para ter acesso aos arquivos. <br>Obs:
+                                Não deixe de ler o read.me
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/CRUD-Tokyo-Streetwear/commercialWebStore" target="_blank"
+                                    type="button" class="btn btn-primary">Github</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Projeto 3-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/fox.svg" class="card-img-top img-card-resize" alt="Logo Filhos da Corrente">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Fox - Loja de Brinquedos</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">Um site em formato de ecommerce desenvolvido com Bootstrap,
+                                Laravel, Ajax, JS e PHP.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                                <button type="button" class="btn modal-btn" data-bs-toggle="modal"
+                                    data-bs-target="#foxModal">
+                                    Não hospedado
+                                </button>
+                                <a href="https://github.com/Fox-Loja-de-Brinquedos/Fox" target="_blank"
+                                    class="btn btn-checkout">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Site não Hospedado-->
+                <div class="modal fade" id="foxModal" tabindex="-1" aria-labelledby="foxModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="charlieModal">Fox - Loja de Brinquedos</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Esse site foi desenvolvido utilizando o framework de PHP Laravel impossibilitando uma
+                                hospedagem simples no github.
+                                Segue link para vídeo do projeto: <a
+                                    href="https://drive.google.com/file/d/1RqzTzKRH7rrpwMuO9kXK_OsR2KeBS7ke/view?usp=sharing"
+                                    target="_blank">Vídeo
+                                    do Projeto</a>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/Fox-Loja-de-Brinquedos/Fox" target="_blank" type="button"
+                                    class="btn btn-primary">Github</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--Container Cards de Projetos-->
+        <div class="container project-cards-container">
+            <div class="row d-flex justify-content-around">
+
+                <!--Projeto 1-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/edulinker.png" class="card-img-top img-card-resize" alt="Logo Edulinker">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Plataforma Edulinker</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">
+                                TCC: Plataforma Edulinker para digitalizar escolas e academias, criando sites de
+                                ensino com poucos inputs.
+                            </p>
+                            <div class="d-flex justify-content-around">
+                                <a href="https://edulinker.okasites.com.br/" class="btn modal-btn" target="_blank">
+                                    Visitar Página
+                                </a>
+                                <a href="https://github.com/PiEduLinker/EduLinker" target="_blank"
+                                    class="btn btn-checkout">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+   <!--Projeto 3-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/figmaLogo.png" class="card-img-top img-card-resize"
+                            alt="Logo Filhos da Corrente">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Design Figma</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">Utilização do Figma para a criação de projetos web, além de usá-lo
+                                para expor ideias e produtos, como em posts e outras apresentações visuais
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn modal-btn" data-bs-toggle="modal"
+                                    data-bs-target="#figmaModal">
+                                    Exemplo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal exemplo-->
+                <div class="modal fade" id="figmaModal" tabindex="-1" aria-labelledby="figmaModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="charlieModal">Figma Design</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/imgs/arts/portfolioDianaImoveis.jpg" alt="Imagem de Exemplo Figma"
+                                    style="width: 100%; object-fit: contain; padding: 20px;">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Projeto 3-->
+                <div class="card col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5">
+                    <div class="d-flex justify-content-center background-projects rounded-4 py-5">
+                        <img src="imgs/arts/workingOnIt.jpg" class="card-img-top developing-more-img"
+                            alt="Trabalhando em Mais Projetos">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title jura yellow-text fs-4">Em breve</h5>
+                        <div class="d-flex flex-column justify-content-around" style="height: 80%;">
+                            <p class="card-text fs-5">
+                                Sigo desenvolvendo mais aplicações e aprendendo mais tecnologias para me tornar um
+                                funcionário de valor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!---------------------------Rodapé------------------------->
+    <section id="footer-section" class="bg-dark-blue">
+        <footer>
+
+            <!--Container métodos de contato e imagem-->
+            <div class="container-fluid container-lg d-flex justify-content-between align-items-center pt-5"
+                id="footer-container">
+
+                <div id="title-and-text-box">
+                    <h3 class="yellow-text fs-2">Contate-me</h3>
+
+                    <!--Caixa com métodos de contato-->
+                    <div id="contact-method-box">
+                        <!--Outlook-->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rafaelleotsuka@gmail.com.br&su=Rafaelle&body=Ol%C3%A1%20Rafaelle"
+                            target="_blank" class="d-flex align-items-center nav-link">
+                            <img class="footer-icons-resize" src="imgs\arts\gmail-icon.png"
+                                alt="Ícone do Outlook"></img>
+                            <p class="m-0 fs-5 ms-4">rafaelleotsuka@gmail.com</p>
+                        </a>
+
+                        <!--Linkedin-->
+                        <a href="https://www.linkedin.com/in/rafaelle-hemmel-otsuka-86816826b/" target="_blank"
+                            class="d-flex align-items-center nav-link">
+                            <img class="footer-icons-resize" src="imgs/icons/linkedinIcon.png"
+                                alt="Ícone do Linkedin"></img>
+                            <p class="m-0 fs-5 ms-4">rafaelle-hemmel-otsuka</p>
+                        </a>
+
+                        <!--Github-->
+                        <a href="https://github.com/Rafa-Otsuka" target="_blank"
+                            class="d-flex align-items-center nav-link">
+                            <img class="footer-icons-resize" src="imgs/icons/githubIcon.png"
+                                alt="Ícone do Github"></img>
+                            <p class="m-0 fs-5 ms-4">Rafa-Otsuka</p>
+                        </a>
+
+                        <!--WhatsApp-->
+                        <a href="https://api.whatsapp.com/send?phone=5511920016396" target="_blank"
+                            class="d-flex align-items-center nav-link">
+                            <img class="footer-icons-resize" src="imgs/icons/whatsappIcon.png"
+                                alt="Ícone do WhatsApp"></img>
+                            <p class="m-0 fs-5 ms-4">11 92201-6396</p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!--Caixa com imagem rodapé-->
+                <div>
+                    <img id="contact-footer-img" src="imgs\arts\rafa_desenho_png.png" alt="Arte no rodapé para contato" style="object-fit: cover;">
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <script defer src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
